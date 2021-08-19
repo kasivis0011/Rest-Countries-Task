@@ -7,7 +7,7 @@ function createLayout({ name, region, capital, population, flag }) {
   const inf = document.createElement("div");
   inf.setAttribute("class", "container");
   inf.innerHTML = ` <div class="flag-container">
-                        <img src=${flag} alt="flag image" width="200px" height="160px"/>
+                        <img src=${flag} alt="flag image" width="250px" height="150px"/>
                     <div>
                     <div class="detail">
                       <h3>Name : ${name}<h3>
